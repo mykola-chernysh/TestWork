@@ -1,0 +1,27 @@
+@media screen and (max-height: 700px) {
+    .header {
+        padding: 0 0 40px 0;
+    }
+
+    .header_middle {
+        gap: 30px;
+    }
+
+    .header_bottom {
+        gap: 20px;
+    }
+
+    .client {
+        gap: 20px;
+    }
+
+    .client > div > img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-height: 700px) and (max-width: 480px) {
+    .header {
+        padding: 0 0 10px 0;
+    }
+}

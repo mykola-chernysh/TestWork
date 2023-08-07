@@ -1,0 +1,56 @@
+@media screen and (max-width: 320px) {
+    .menu_link {
+        font-size: 14px;
+    }
+
+    .header_middle > h1 {
+        font-size: 20px;
+        max-width: 260px;
+    }
+
+    .header_buttons > a {
+        font-size: 12px;
+        padding: 10px 27px;
+    }
+
+    .header_middle {
+        gap: 15px;
+    }
+
+    .header_bottom > p {
+        font-size: 12px;
+    }
+
+    .client > div > img {
+        max-width: 60px;
+    }
+
+    .build_middle > img {
+        width: 300px;
+    }
+
+    .join_images {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        grid-template-rows: repeat(4, minmax(100px, 1fr));
+    }
+
+    .footer_list_container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_list {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_list > ul {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select_language > a {
+        color: #ffffff;
+    }
+}

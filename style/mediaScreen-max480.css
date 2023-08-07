@@ -1,0 +1,109 @@
+@media screen and (max-width: 480px) {
+    .header_top > a {
+        font-size: 13px;
+    }
+
+    .header_menu {
+        gap: 20px;
+    }
+
+    .menu_list {
+        flex-wrap: wrap;
+    }
+
+    .header_middle > h1 {
+        font-size: 30px;
+    }
+
+    .header_middle {
+        gap: 20px;
+    }
+
+    .header_middle > p {
+        font-size: 14px;
+    }
+
+    .header_buttons {
+        flex-wrap: wrap;
+        padding: 0 10px 15px;
+    }
+
+    .header_buttons > a {
+        font-size: 14px;
+        padding: 12px 29px;
+    }
+
+    .header_bottom > p {
+        font-size: 12px;
+    }
+
+    .client {
+        gap: 10px;
+    }
+
+    .client > div > img {
+        max-width: 80px;
+    }
+
+    .community_wrapper > h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .community_number > p {
+        font-size: 40px;
+    }
+
+    .build_buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .build_bottom {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .build_desc > a {
+        text-align: center;
+    }
+
+    .build_desc > img {
+        width: 150px;
+    }
+
+    .build_desc > p {
+        font-size: 15px;
+    }
+
+    .join_images {
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+        grid-template-rows: repeat(4, minmax(150px, 1fr));
+    }
+
+    .join > h2 {
+        margin: 0;
+    }
+
+    .join_desc > p {
+        font-size: 20px;
+    }
+
+    .footer_wrapper {
+        gap: 30px;
+    }
+
+    .footer_link {
+        font-size: 13px;
+    }
+
+    .footer_list_container {
+        gap: 20px;
+    }
+
+    .footer_copy {
+        text-align: center;
+    }
+}
