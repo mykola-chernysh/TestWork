@@ -71,7 +71,7 @@
     .community_wrapper > h2 {
         font-size: 25px;
         max-width: 100%;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .community_wrapper {
